@@ -51,5 +51,4 @@ Now that you have compiled and sourced the packages, launch the simulation and t
 roslaunch myrobot world.launch
 roslaunch ball_chaser ball_chaser.launch
 ```
-
-Note that a blank RViz configuration will load. You will need to add the camera and laser topics manually to your liking. Make sure to change the `Fixed Frame` parameter in RViz from `map` to `chassis`,
+Gazebo and RViz should open. RViz will be configured to include the image stream and laser scan data, as shown in the GIF at the top of this doument. 
